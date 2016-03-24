@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rahulthapar.watersurvey11.Year2014">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    WATER BILL AND WATER USE 2014                           "
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="January"
+        android:id="@+id/jan"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_jan_2014"
+        android:layout_below="@+id/jan"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="February"
+        android:id="@+id/feb"
+        android:layout_above="@+id/edit_jan_2014"
+        android:layout_alignLeft="@+id/edit_feb_2014"
+        android:layout_alignStart="@+id/edit_feb_2014" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_feb_2014"
+        android:layout_below="@+id/feb"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="March"
+        android:id="@+id/march"
+        android:layout_above="@+id/edit_feb_2014"
+        android:layout_alignLeft="@+id/edit_march_2014"
+        android:layout_alignStart="@+id/edit_march_2014" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_march_2014"
+        android:layout_below="@+id/march"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="April"
+        android:id="@+id/april"
+        android:layout_below="@+id/edit_jan_2014"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_april_2014"
+        android:layout_below="@+id/april"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="May"
+        android:id="@+id/may"
+        android:layout_above="@+id/edit_april_2014"
+        android:layout_alignLeft="@+id/edit_feb_2014"
+        android:layout_alignStart="@+id/edit_feb_2014" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_may_2014"
+        android:layout_below="@+id/may"
+        android:layout_alignLeft="@+id/may"
+        android:layout_alignStart="@+id/may" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="June"
+        android:id="@+id/june"
+        android:layout_above="@+id/edit_may_2014"
+        android:layout_alignLeft="@+id/edit_march_2014"
+        android:layout_alignStart="@+id/edit_march_2014" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_june_2014"
+        android:layout_alignBottom="@+id/edit_may_2014"
+        android:layout_alignLeft="@+id/june"
+        android:layout_alignStart="@+id/june" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="July"
+        android:id="@+id/july"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/april"
+        android:layout_alignEnd="@+id/april" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_july_2014"
+        android:layout_below="@+id/july"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edit_april_2014"
+        android:layout_alignEnd="@+id/edit_april_2014" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August"
+        android:id="@+id/august"
+        android:layout_above="@+id/edit_july_2014"
+        android:layout_alignLeft="@+id/edit_may_2014"
+        android:layout_alignStart="@+id/edit_may_2014" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_august_2014"
+        android:layout_alignBottom="@+id/edit_july_2014"
+        android:layout_alignLeft="@+id/august"
+        android:layout_alignStart="@+id/august"
+        android:layout_alignRight="@+id/edit_may_2014"
+        android:layout_alignEnd="@+id/edit_may_2014" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="September"
+        android:id="@+id/sept"
+        android:layout_alignBottom="@+id/august"
+        android:layout_alignLeft="@+id/edit_june_2014"
+        android:layout_alignStart="@+id/edit_june_2014" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_sept_2014"
+        android:layout_below="@+id/sept"
+        android:layout_alignLeft="@+id/sept"
+        android:layout_alignStart="@+id/sept" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="October"
+        android:id="@+id/october"
+        android:layout_below="@+id/edit_july_2014"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_oct_2014"
+        android:layout_below="@+id/october"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edit_july_2014"
+        android:layout_alignEnd="@+id/edit_july_2014" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="November"
+        android:id="@+id/nov"
+        android:layout_above="@+id/edit_oct_2014"
+        android:layout_alignLeft="@+id/edit_august_2014"
+        android:layout_alignStart="@+id/edit_august_2014" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_nov_2014"
+        android:layout_below="@+id/nov"
+        android:layout_alignRight="@+id/edit_august_2014"
+        android:layout_alignEnd="@+id/edit_august_2014"
+        android:layout_alignLeft="@+id/nov"
+        android:layout_alignStart="@+id/nov" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="December"
+        android:id="@+id/dec"
+        android:layout_above="@+id/edit_nov_2014"
+        android:layout_alignLeft="@+id/edit_sept_2014"
+        android:layout_alignStart="@+id/edit_sept_2014" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/edit_dec_2014"
+        android:layout_alignBottom="@+id/edit_nov_2014"
+        android:layout_alignLeft="@+id/dec"
+        android:layout_alignStart="@+id/dec" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROCEED"
+        android:id="@+id/save_next_year2014"
+        android:layout_below="@+id/edit_nov_2014"
+        android:layout_marginTop="32dp"
+        android:layout_alignLeft="@+id/july"
+        android:layout_alignStart="@+id/july"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
